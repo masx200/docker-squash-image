@@ -1,17 +1,17 @@
-# docker-image-msopenjdk-gradle-maven
+# docker-squash-image
 
 #### 介绍
-docker-image-msopenjdk-gradle-maven
+
+docker-squash-image
 
 #### 软件架构
-软件架构说明
 
+软件架构说明
 
 #### 安装教程
 
-
 ```shell
-docker pull masx200/ubuntu-maven-gradle-msopenjdk
+docker pull masx200/docker-squash
 ```
 
 #### 使用说明

@@ -32,7 +32,7 @@ jobs:
       - run: mkdir -p ./dist
       - run: docker images
       - name: Build and save
-        run: docker save masx200/ubuntu-maven-gradle-msopenjdk:latest | gzip > ./dist/masx200-ubuntu-maven-gradle-msopenjdk-latest-image.tgz
+        run: docker save masx200/docker-squash:latest | gzip > ./dist/masx200-docker-squash-latest-image.tgz
 
       - name: Release
         uses: softprops/action-gh-release@v2
